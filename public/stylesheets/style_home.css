@@ -1,0 +1,54 @@
+html, body {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    background-color:rgba(230, 230, 230, 1.0);
+    width: 100%;
+    height: 100%;
+    
+  }
+
+#uContainer{
+ 
+    width: 80%;
+    height: 80%;
+    display: flex;
+}
+
+#uContainer > div{
+    flex: 1; /*grow*/
+}
+
+img{
+    image-rendering: auto;
+    width: 100%;
+    height: auto;
+    
+}
+
+#img_selector{
+    display:grid;
+    grid-template-columns: 50% 50%;
+    grid-row: auto auto;
+
+}
+
+
+
+
+.imgSel{
+    width: 100%;
+     height: auto; 
+     float: left; 
+    background: url(/public/img/Img1.png) no-repeat;
+    transition: .7s;
+}
+.imgSel:hover{
+    opacity: 0.5;
+    transition: .7s;
+    background: url(/public/img/Img1_hover.png) no-repeat;
+}
+
