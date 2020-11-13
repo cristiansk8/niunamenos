@@ -52,17 +52,12 @@ console.log("Brush" + uBrushW);
 console.log(window.innerWidth);
 console.log(window.innerHeight);
 
-
-
-
        
 /* Preload Image */
 let stencil,stencilCopy,templateRatio;
 function preload() {
     stencil = loadImage('/public/img/Feminicidio_72.png',img => stencilCopy = img.get());
-
 }
-
 
 
 function setup() {
@@ -122,7 +117,6 @@ function setup() {
         console.log("AEIOU");
      }else{
       return false;
-
      }
    
   }
@@ -184,7 +178,3 @@ $( "#sendCanvas" ).on('click',function() {
     saveCanvas('myCanvas', 'jpg');
     modal.style.display = "block";
   });
- 
- 
- 
- 

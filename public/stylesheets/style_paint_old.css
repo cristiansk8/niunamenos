@@ -1,0 +1,177 @@
+body
+{
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  background-color:rgba(255, 255, 255);
+  width: 100%;
+  height: 100%;
+}
+@media only screen and (min-width: 320px) {
+
+  #uContainer{
+    display: flex;
+    background-color: rgba(0,0,0,0.8);
+    padding: 1%;
+    width: 98vw;
+    height:98vh;
+    margin: auto;
+    padding: 0;
+  }
+  #uCanvas{
+    display:inline-block;
+    width: 90%;
+
+  }
+  #uUI{
+    width: 10%;
+    position: relative;
+    float: right;
+    background-color: #E6E6E6;
+    flex-grow: 1;
+  }
+
+  #colors{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+  }
+  .color{
+    width: 50%;
+    padding-top: 50%;
+    border: 4px solid white;
+
+  }
+
+  .c1{
+    margin-left: auto;
+  }
+
+  #uBrush{
+    color: white;
+    width: 7vw;
+    height: 7vw;
+    margin: auto;
+  }
+  svg
+  {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+
+  #brushScale{
+    width: 90%;
+    margin-top: 20%;
+
+ }
+
+
+ #sendButton{
+
+  text-align: center;
+  margin: auto;
+  padding:0;
+
+ }
+ #sendCanvas{
+  padding-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+
+  }
+
+
+}
+
+
+
+@media only screen and (min-width: 1400px) {
+
+  #uContainer{
+    display: flex;
+    background-color: rgba(0,0,0,0.8);
+    padding: 1%;
+    width: 98vw;
+    height:98vh;
+    margin: auto;
+    padding: 0;
+
+
+  }
+  #uCanvas{
+    display:inline-block;
+    width: 90%;
+
+  }
+  #uUI{
+    width: 10%;
+    position: relative;
+    float: right;
+    background-color: #E6E6E6;
+    flex-grow: 1;
+  }
+
+  #colors{
+    text-align: center;
+    margin-top: 50%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+  }
+  .color{
+    width: 50%;
+    padding-top: 50%;
+    border: 4px solid white;
+
+  }
+
+  .c1{
+    margin-left: auto;
+  }
+
+  #uBrush{
+    color: white;
+    width: 7vw;
+    height: 7vw;
+    margin: auto;
+  }
+  svg
+  {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+
+  #brushScale{
+    width: 90%;
+    margin-top: 20%;
+
+ }
+
+
+ #sendButton{
+
+  text-align: center;
+  margin: auto;
+  padding:0;
+
+ }
+ #sendCanvas{
+  padding-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+
+  }
+
+
+}

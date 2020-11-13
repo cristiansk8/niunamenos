@@ -13,18 +13,14 @@
     <link rel="stylesheet" href="/public/stylesheets/style_paint.css" type="text/css">
     <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
 
-
-   
-
 </head>
 <body>
-    <div id = "uContainer" class="animate__animated animate__fadeIn animate__delay-1s" >
-        <div id="uCanvas">
+    <div id = "uContainer" class="uContainer animate__animated animate__fadeIn animate__delay-1s" >
+        <div class="uCanvas" id="uCanvas">
 
         </div>
-        <div id="uUI">
-            <div id="colors">
-
+        <div class="uUI" id="uUI">
+            <div class="colors" id="colors">
                 <div  class="color c1"></div>
                 <div  class="color c2"></div>
                 <div  class="color c1"></div>
@@ -37,23 +33,18 @@
                 <div  class="color c2"></div>
                 <div  class="color c1"></div>
                 <div  class="color c2"></div>
-               
-
             </div>
-            <div id = "uBrush" >
+            <div class="uBrush" id="uBrush" >
                 <svg>
-                    <circle id="circle1" cx="0" cy="0" r="10"></circle>
-                    <circle id="circle2" cx="0" cy="0" r="10"></circle>
-                </svg>
-                    
-               
+                    <circle class="circle1" id="circle1" cx="0" cy="0" r="10"></circle>
+                    <circle class="circle2" id="circle2" cx="0" cy="0" r="10"></circle>
+                </svg>               
             </div>
-            <div id="brushSlider" >
-                <input type="range" id="brushScale" name="brushScale" min="10" max="40">
+            <div class="brushSlider" id="brushSlider" >
+                <input type="range" class="brushScale" id="brushScale" name="brushScale" min="10" max="40">
             </div>
-            <div id="sendButton">
+            <div class="sendButton" id="sendButton">
                 <input id="sendCanvas" type="image" src="/public/img/enviar.png" />
-            
             </div>
         </div>
     </div>
