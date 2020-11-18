@@ -38,18 +38,24 @@ body {
   background-color: #E6E6E6;
   width: 100%;
   height: 20vh;
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.uContainer .uUI div {
+  width: 50%;
 }
 
 .uContainer .uUI .colors {
   text-align: center;
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 20% 20% 20% 20% 20%;
 }
 
 .uContainer .uUI .colors .color {
-  width: 50%;
+  width: 100%;
   padding-top: 50%;
-  border: 4px solid white;
+  border: 2px solid white;
 }
 
 .uContainer .uUI .colors .c1 {
@@ -99,5 +105,21 @@ body {
   .uContainer .uUI {
     height: 100%;
     width: 15%;
+  }
+  .uContainer .uUI div {
+    width: 100%;
+  }
+  .uContainer .uUI .colors {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+  .uContainer .uUI .colors .color {
+    width: 50%;
+    padding-top: 50%;
+    border: 4px solid white;
+  }
+  .uContainer .uUI .colors .c1 {
+    margin-left: auto;
   }
 }

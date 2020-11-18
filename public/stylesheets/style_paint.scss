@@ -35,14 +35,19 @@ body{
         background-color: #E6E6E6;
         width: 100%;
         height: 20vh;
+        display: flex;
+        flex-flow: column wrap;
+        div{
+            width: 50%;
+        }
         .colors{
             text-align: center;
             display: grid;
-            grid-template-columns: 50% 50%;
+            grid-template-columns: 20% 20% 20% 20% 20%;
             .color{
-                width: 50%;
+                width: 100%;
                 padding-top: 50%;
-                border: 4px solid white;            
+                border: 2px solid white;            
             }
             .c1{
                 margin-left: auto;
@@ -80,7 +85,7 @@ body{
     }
 }
 
-@media only screen and (min-width: 480px) {
+@media only screen and (min-width: 480px) {    
     .uContainer{
         height: 100vh;
         .uCanvas{
@@ -90,6 +95,23 @@ body{
         .uUI{
             height: 100%;
             width: 15%;
+            div{
+                width: 100%;
+            }
+            .colors{
+                text-align: center;
+                display: grid;
+                grid-template-columns: 50% 50%;
+                .color{
+                    width: 50%;
+                    padding-top: 50%;
+                    border: 4px solid white;            
+                }
+                .c1{
+                    margin-left: auto;
+                }
+            }
         }
+        
     }
 }
