@@ -138,8 +138,6 @@ function setup() {
     outlineB.attr("cx",uBrush.offsetWidth/2).attr("cy",uBrush.offsetHeight/2);
     sizeB.attr("cx",uBrush.offsetWidth/2).attr("cy",uBrush.offsetHeight/2);
     resizeCanvas(uCanvas.offsetWidth, uCanvas.offsetHeight);
-    
-    
   }
  
  

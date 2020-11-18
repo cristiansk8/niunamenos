@@ -24,11 +24,17 @@ body{
     padding: 1%;    
     margin: auto;
     padding: 0;
-    .uCanvas{
+    .contUCanvas{
+        display: flex;
+        flex-flow: column;
         text-align: center;
         align-items: center;
         width: 100%;
         height: 80vh;
+        .uCanvas{
+            width: 100%;
+            height: 60%;            
+        }
     }
     .uUI{
         box-sizing: border-box;
@@ -88,7 +94,7 @@ body{
 @media only screen and (min-width: 480px) {    
     .uContainer{
         height: 100vh;
-        .uCanvas{
+        .contUCanvas{
             height: 100%;
             width: 85%;
         }
