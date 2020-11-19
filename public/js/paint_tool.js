@@ -1,3 +1,7 @@
+window.addEventListener("orientationchange", function() {
+    // Hacer algo cuando cambia la orientación
+    location.reload();
+}, false);
 /* Painting Variables  */
 var canvas,pg;
 var drawing;
@@ -139,9 +143,6 @@ function setup() {
     sizeB.attr("cx",uBrush.offsetWidth/2).attr("cy",uBrush.offsetHeight/2);
     resizeCanvas(uCanvas.offsetWidth, uCanvas.offsetHeight);
   }
-
-
-
 /* ::::::::::::::::::::::::::::::::::::::::*/
 /* Brush UI */
 /* ::::::::::::::::::::::::::::::::::::::::*/
