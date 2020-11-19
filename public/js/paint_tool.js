@@ -1,8 +1,8 @@
 if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-   alert("Gira tu dispositivo")
+   alert("Gira el dispositivo");
 }
 window.addEventListener("orientationchange", function() {
-     Hacer algo cuando cambia la orientación
+    // Hacer algo cuando cambia la orientación
     location.reload();
 }, false);
 /* Painting Variables  */
