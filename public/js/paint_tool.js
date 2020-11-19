@@ -1,10 +1,10 @@
 if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
    alert("Gira el dispositivo");
 }
-window.addEventListener("orientationchange", function() {
+//window.addEventListener("orientationchange", function() {
     // Hacer algo cuando cambia la orientación
-    location.reload();
-}, false);
+  //  location.reload();
+//}, false);
 /* Painting Variables  */
 var canvas,pg;
 var drawing;
@@ -63,7 +63,7 @@ console.log(window.innerHeight);
 /* Preload Image */
 let stencil,stencilCopy,templateRatio;
 function preload() {
-    stencil = loadImage('/public/img/niunamenos-1920.png',img => stencilCopy = img.get());
+    stencil = loadImage('/public/img/final-2.png',img => stencilCopy = img.get());
 }
 
 
