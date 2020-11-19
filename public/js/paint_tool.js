@@ -1,6 +1,6 @@
 /* Painting Variables  */
 var canvas,pg;
-var drawing;  
+var drawing;
 var uColor = "#FF0000";
 let strokeWidth = 20
 var wWidth,cW,cH;
@@ -33,7 +33,7 @@ var colours = [
 
 ];
 var  myArray = $('.color');
-myArray.each( function(i) { 
+myArray.each( function(i) {
     //console.log(i + " " + colours[i]);
     $(this).css("background-color", colours[i].hex);
 });
@@ -52,11 +52,11 @@ console.log("Brush" + uBrushW);
 console.log(window.innerWidth);
 console.log(window.innerHeight);
 
-       
+
 /* Preload Image */
 let stencil,stencilCopy,templateRatio;
 function preload() {
-    stencil = loadImage('/public/img/Feminicidio_72.png',img => stencilCopy = img.get());
+    stencil = loadImage('/public/img/niunamenos-1920.png',img => stencilCopy = img.get());
 }
 
 
@@ -68,11 +68,11 @@ function setup() {
 
     image(stencil,0,0);
 
-    /* OffScreen Setup */ 
+    /* OffScreen Setup */
     pg = createGraphics(cW, cH);
     pg.background(255,255,255);
-   
- 
+
+
  }
 
  function draw(){
@@ -84,10 +84,10 @@ function setup() {
         pg.stroke(color(uColor));
         pg.strokeWeight(strokeWidth);
         pg.line(mouseX, mouseY, pmouseX, pmouseY);
-       
+
     } else{
         pg.stroke(0,0,0,0);
-      
+
       }
     image(pg,0,0,uCanvas.offsetWidth,uCanvas.offsetHeight);
     image(stencil,0,0,uCanvas.offsetWidth,uCanvas.offsetHeight);
@@ -118,15 +118,15 @@ function setup() {
      }else{
       return false;
      }
-   
+
   }
-  
+
   function touchEnded(){
     drawing = false;
   }
 
 
- 
+
 
 /* ::::::::::::::::::::::::::::::::::::::::*/
 /* Window Resized  */
@@ -139,8 +139,8 @@ function setup() {
     sizeB.attr("cx",uBrush.offsetWidth/2).attr("cy",uBrush.offsetHeight/2);
     resizeCanvas(uCanvas.offsetWidth, uCanvas.offsetHeight);
   }
- 
- 
+
+
 
 /* ::::::::::::::::::::::::::::::::::::::::*/
 /* Brush UI */
@@ -149,7 +149,7 @@ function setup() {
  rangeslider.oninput = function() {
    strokeWidth = this.value;
    sizeB.attr("r", strokeWidth/2);
-   
+
  }
 var outlineB = d3.select("#circle1");
 outlineB.style("fill", "white")
@@ -163,7 +163,7 @@ sizeB.style("fill", uColor)
     .attr("r", 10)
     .attr("cx",uBrush.offsetWidth/2)
     .attr("cy",uBrush.offsetHeight/2);
- 
+
 function setColor(x) {
     uColor = x.value;
 }

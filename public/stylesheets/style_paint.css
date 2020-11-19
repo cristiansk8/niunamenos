@@ -28,23 +28,22 @@ body {
 
 .uContainer .contUCanvas {
   display: flex;
-  flex-flow: column;
   text-align: center;
   align-items: center;
   width: 100%;
-  height: 80vh;
+  height: 100vh;
 }
 
 .uContainer .contUCanvas .uCanvas {
   width: 100%;
-  height: 60%;
+  height: 100%;
 }
 
 .uContainer .uUI {
   box-sizing: border-box;
   background-color: #E6E6E6;
   width: 100%;
-  height: 20vh;
+  height: 100%;
   display: flex;
   flex-flow: column wrap;
 }
@@ -128,5 +127,68 @@ body {
   }
   .uContainer .uUI .colors .c1 {
     margin-left: auto;
+  }
+}
+
+
+/*querys puercos*/
+@media (min-height: 480px) and (min-width:320px) {
+  .uContainer .contUCanvas .uCanvas {
+    width: 100%;
+    height: 100%;
+  }
+  .uContainer .uUI{
+    background-color: yellow;
+  }
+  .uContainer .contUCanvas {
+    width: 100%;
+    height: 42vh;
+  }
+}
+@media (max-height: 320px) and (min-width:480px) {
+  .uContainer .contUCanvas .uCanvas {
+    width: 100%;
+    height: 100%;
+  }
+  .uContainer .uUI{
+    background-color: red;
+  }
+}
+
+@media (min-height: 481px) and (min-width:480px) {
+  .uContainer .contUCanvas .uCanvas {
+    width: 100%;
+    height: 60%;
+  }
+  .uContainer .uUI{
+    background-color: purple;
+  }
+}
+@media (max-height: 480px) and (min-width:481px) {
+  .uContainer .contUCanvas .uCanvas {
+    width: 100%;
+    height: 60%;
+  }
+  .uContainer .uUI{
+    background-color: gray;
+  }
+}
+
+@media (min-height: 769px) and (min-width:768px) {
+  .uContainer .contUCanvas .uCanvas {
+    width: 100%;
+    height: 60%;
+  }
+  .uContainer .uUI{
+    background-color: blue;
+  }
+}
+@media (max-height: 768px) and (min-width:769px) {
+  .uContainer .contUCanvas .uCanvas {
+    width: 100%;
+    height: 60%;
+  }
+  .uContainer .uUI{
+    background-color: black;
   }
 }
