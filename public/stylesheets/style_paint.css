@@ -49,10 +49,11 @@ body {
 }
 
 .uContainer .uUI div {
-  width: 50%;
+  width: 100%;
 }
 
 .uContainer .uUI .colors {
+
   text-align: center;
   display: grid;
   grid-template-columns: 20% 20% 20% 20% 20%;
@@ -138,7 +139,6 @@ body {
     height: 100%;
   }
   .uContainer .uUI{
-    background-color: yellow;
   }
   .uContainer .contUCanvas {
     width: 100%;
@@ -151,7 +151,6 @@ body {
     height: 100%;
   }
   .uContainer .uUI{
-    background-color: red;
   }
 }
 
@@ -161,7 +160,6 @@ body {
     height: 100%;
   }
   .uContainer .uUI{
-    background-color: purple;
   }
   .uContainer .contUCanvas {
     width: 85%;
@@ -174,7 +172,6 @@ body {
     height: 100%;
   }
   .uContainer .uUI{
-    background-color: gray;
   }
   .uContainer .contUCanvas {
     width: 85%;
@@ -188,7 +185,6 @@ body {
     height: 100%;
   }
   .uContainer .uUI{
-    background-color: blue;
   }
   .uContainer .contUCanvas {
     width: 85%;
@@ -201,7 +197,6 @@ body {
     height: 100%;
   }
   .uContainer .uUI{
-    background-color: black;
   }
   .uContainer .contUCanvas {
     width: 85%;
