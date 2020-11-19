@@ -158,37 +158,53 @@ body {
 @media (min-height: 481px) and (min-width:480px) {
   .uContainer .contUCanvas .uCanvas {
     width: 100%;
-    height: 60%;
+    height: 100%;
   }
   .uContainer .uUI{
     background-color: purple;
+  }
+  .uContainer .contUCanvas {
+    width: 85%;
+    height: 42vh;
   }
 }
 @media (max-height: 480px) and (min-width:481px) {
   .uContainer .contUCanvas .uCanvas {
     width: 100%;
-    height: 60%;
+    height: 100%;
   }
   .uContainer .uUI{
     background-color: gray;
+  }
+  .uContainer .contUCanvas {
+    width: 85%;
+    height: 100vh;
   }
 }
 
 @media (min-height: 769px) and (min-width:768px) {
   .uContainer .contUCanvas .uCanvas {
     width: 100%;
-    height: 60%;
+    height: 100%;
   }
   .uContainer .uUI{
     background-color: blue;
+  }
+  .uContainer .contUCanvas {
+    width: 85%;
+    height: 100vh;
   }
 }
 @media (max-height: 768px) and (min-width:769px) {
   .uContainer .contUCanvas .uCanvas {
     width: 100%;
-    height: 60%;
+    height: 100%;
   }
   .uContainer .uUI{
     background-color: black;
+  }
+  .uContainer .contUCanvas {
+    width: 85%;
+    height: 100vh;
   }
 }
