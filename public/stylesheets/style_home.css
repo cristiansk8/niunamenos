@@ -37,7 +37,7 @@ html, body {
     height: 50%;
 }
 .imgSel{
-
+min-height: 190px;
 }
 .imgSel > img{
     display:block;
