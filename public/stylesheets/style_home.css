@@ -42,20 +42,26 @@ min-height: 190px;
 .imgSel > img{
     display:block;
     margin:auto;
+    padding: 20px;
+}
+.imgSel > img:hover{
+
+    filter: grayscale(80%);
 }
 
+/*
 .imgSel{
     width: 100%;
     height: auto;
     float: left;
-    background: url(/public/img/Img1.png) no-repeat;
+    background: url(/public/img/Botones_ilus-01.png) no-repeat;
     transition: .7s;
 }
 .imgSel:hover{
     opacity: 0.5;
     transition: .7s;
     background: url(/public/img/Img1_hover.png) no-repeat;
-}
+}*/
 
 @media only screen and (min-width: 768px) {
     #uContainer{
