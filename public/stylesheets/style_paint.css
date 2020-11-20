@@ -22,7 +22,6 @@ body {
   flex-flow: row wrap;
   background-color: rgba(0, 0, 0, 0.8);
   margin: auto;
-  padding: 20px 20px 0 20px;
 }
 
 .uContainer .contUCanvas {

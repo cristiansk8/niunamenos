@@ -2,10 +2,10 @@ if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
   var modal = document.getElementById('modal');
   modal.style.display = 'block';
 }
-window.addEventListener("orientationchange", function() {
+/*window.addEventListener("orientationchange", function() {
     location.reload();
 }, false);
-/* Painting Variables  */
+ Painting Variables  */
 var canvas,pg;
 var drawing;
 var uColor = "#FF0000";
