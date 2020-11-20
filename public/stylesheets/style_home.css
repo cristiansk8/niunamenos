@@ -1,47 +1,53 @@
-html, body {
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
+*{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
+}
+html, body {
     background-color:rgba(230, 230, 230, 1.0);
-    width: 100%;
-    height: 100%;
-    
-  }
+}
 
 #uContainer{
- 
-    width: 80%;
-    height: 80%;
     display: flex;
+    flex-flow: row wrap;
+    padding: 5px;
+    justify-content: center;
+    text-align: center;
 }
 
-#uContainer > div{
-    flex: 1; /*grow*/
-}
-
-img{
-    image-rendering: auto;
+.texto{
     width: 100%;
-    height: auto;    
+    height: 250px;
+    padding: 5px;
+}
+.texto > img{
+    height: 100%;
 }
 
-#img_selector{
-    display:grid;
-    grid-template-columns: 50% 50%;
-    grid-row: auto auto;
+.img_selector{
+    width: 100%;
+    height: 250px;
+    padding: 5px;
+    display: flex;
+    flex-flow: row wrap;
+    height: 250px;
+}
+.img_selector div{
+    width: 50%;
+    height: 50%;
+}
+.imgSel{
 
 }
-
-
-
+.imgSel > img{
+    display:block;
+    margin:auto;
+}
 
 .imgSel{
     width: 100%;
-     height: auto; 
-     float: left; 
+    height: auto;
+    float: left;
     background: url(/public/img/Img1.png) no-repeat;
     transition: .7s;
 }
@@ -51,3 +57,22 @@ img{
     background: url(/public/img/Img1_hover.png) no-repeat;
 }
 
+@media only screen and (min-width: 768px) {
+    #uContainer{
+        height: 100vh;
+        padding: 3%;
+    }
+    .texto{
+        width: 50%;
+        height: 100%;
+        padding: 3%;
+    }
+    .texto > img{
+        width: 100%;
+    }
+    .img_selector {
+        width: 50%;
+        height: 100%;
+        padding: 3%;
+    }
+}

@@ -64,7 +64,7 @@ console.log(window.innerHeight);
 /* Preload Image */
 let stencil,stencilCopy,templateRatio;
 function preload() {
-    stencil = loadImage('/public/img/final-2.png',img => stencilCopy = img.get());
+    stencil = loadImage('/public/img/final-4.png',img => stencilCopy = img.get());
 }
 
 
