@@ -1,18 +1,18 @@
 jQuery(function() {
     $( ".img1" ).on( "click", function( event ) {
-        window.location.href = "/paint";
+        window.location.href = "/paint3";
     });
 
 });
 jQuery(function() {
     $( ".img2" ).on( "click", function( event ) {
-        window.location.href = "/paint2";
+        window.location.href = "/paint";
     });
 
 });
 jQuery(function() {
     $( ".img3" ).on( "click", function( event ) {
-        window.location.href = "/paint3";
+        window.location.href = "/paint2";
     });
 
 });
