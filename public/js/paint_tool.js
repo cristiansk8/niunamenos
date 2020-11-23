@@ -36,6 +36,18 @@ var colours = [
   { name: 'color9', hex: '#C10230' },
   { name: 'color10', hex: '#93358D' },
   { name: 'color11', hex: '#53007D' },
+  { name: 'color12', hex: '#46373C' },
+  { name: 'color1', hex: '#414893' },
+  { name: 'color2', hex: '#5499D2' },
+  { name: 'color3', hex: '#00C9AB' },
+  { name: 'color4', hex: '#7EBC54' },
+  { name: 'color5', hex: '#E6DF3D' },
+  { name: 'color6', hex: '#F7BE00' },
+  { name: 'color7', hex: '#FF4713' },
+  { name: 'color8', hex: '#EA0029' },
+  { name: 'color9', hex: '#C10230' },
+  { name: 'color10', hex: '#93358D' },
+  { name: 'color11', hex: '#53007D' },
   { name: 'color12', hex: '#46373C' }
 
 ];

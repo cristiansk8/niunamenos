@@ -36,7 +36,19 @@ var colours = [
   { name: 'color9', hex: '#C10230' },
   { name: 'color10', hex: '#93358D' },
   { name: 'color11', hex: '#53007D' },
-  { name: 'color12', hex: '#46373C' }
+  { name: 'color12', hex: '#46373C' },
+  { name: 'color13', hex: '#414893' },
+  { name: 'color14', hex: '#5499D2' },
+  { name: 'color15', hex: '#00C9AB' },
+  { name: 'color16', hex: '#7EBC54' },
+  { name: 'color17', hex: '#E6DF3D' },
+  { name: 'color18', hex: '#F7BE00' },
+  { name: 'color19', hex: '#FF4713' },
+  { name: 'color20', hex: '#EA0029' },
+  { name: 'color21', hex: '#C10230' },
+  { name: 'color22', hex: '#93358D' },
+  { name: 'color23', hex: '#53007D' },
+  { name: 'color24', hex: '#46373C' }
 
 ];
 var  myArray = $('.color');
