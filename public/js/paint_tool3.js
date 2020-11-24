@@ -25,18 +25,30 @@ uBrush = document.getElementById("uBrush")
 uBrushW = uBrush.offsetWidth;
 $("#uBrush").css("height", uBrushW);
 var colours = [
-  { name: 'color1', hex: '#414893' },
-  { name: 'color2', hex: '#5499D2' },
-  { name: 'color3', hex: '#00C9AB' },
-  { name: 'color4', hex: '#7EBC54' },
-  { name: 'color5', hex: '#E6DF3D' },
-  { name: 'color6', hex: '#F7BE00' },
-  { name: 'color7', hex: '#FF4713' },
-  { name: 'color8', hex: '#EA0029' },
-  { name: 'color9', hex: '#C10230' },
-  { name: 'color10', hex: '#93358D' },
-  { name: 'color11', hex: '#53007D' },
-  { name: 'color12', hex: '#46373C' }
+  { name: 'color1', hex: '#222222' },
+  { name: 'color2', hex: '#4a4a4a' },
+  { name: 'color3', hex: '#ababab' },
+  { name: 'color4', hex: '#53007d' },
+  { name: 'color5', hex: '#7e3599' },
+  { name: 'color6', hex: '#9983cc' },
+  { name: 'color7', hex: '#1255b2' },
+  { name: 'color8', hex: '#0090e9' },
+  { name: 'color9', hex: '#75caee' },
+  { name: 'color10', hex: '#00a980' },
+  { name: 'color11', hex: '#00c9ab' },
+  { name: 'color12', hex: '#99ebd9' },
+  { name: 'color1', hex: '#004d33' },
+  { name: 'color2', hex: '#007d1e' },
+  { name: 'color3', hex: '#7ebc54' },
+  { name: 'color4', hex: '#99e09e' },
+  { name: 'color5', hex: '#d8fd36' },
+  { name: 'color6', hex: '#fcf50d' },
+  { name: 'color7', hex: '#ff4612' },
+  { name: 'color8', hex: '#ff8200' },
+  { name: 'color9', hex: '#f9be00' },
+  { name: 'color10', hex: '#991e21' },
+  { name: 'color11', hex: '#eb0029' },
+  { name: 'color12', hex: '#e79096' }
 
 ];
 var  myArray = $('.color');
